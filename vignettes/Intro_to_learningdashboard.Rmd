@@ -19,3 +19,4 @@ library(learningdashboard)
 ```
 
 This is the introduction to learningdashboard package.
+This package include a dataset including several tables of students log and survey data in Dea1500 Community App during the semester and a shiny app to visulize this dataset.
