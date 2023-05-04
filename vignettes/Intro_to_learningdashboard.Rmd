@@ -1,0 +1,21 @@
+---
+title: "Intro to learningdashboard"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Intro to learningdashboard}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(learningdashboard)
+```
+
+This is the introduction to learningdashboard package.
