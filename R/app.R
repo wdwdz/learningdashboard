@@ -1,4 +1,10 @@
-
+library(shiny)
+library(shinydashboard)
+library(DT)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
 data("dat")
 dat.log <- dat$appdata.log %>%
   mutate(week = week(day))
