@@ -26,7 +26,7 @@ Log tab: include key metric box area, input area, and plot area.
 Survey tab: the same structure with Log tab.
 Sidebar: search user information based on Userid.
 
-```{r}
+```{r out.width = "30%"}
 knitr::include_graphics("img/main.png")
 ```
 
@@ -37,7 +37,7 @@ User group and Log event filter the data visualized in the plot area.
 ## Plot area
 Each point represents the log frequency for a user in each day.
 Click the point of interest, its information including the user id, event type, and frequency will be shown in the area below the Input area. And this user's all related log data will be connected to a line. If there are overlapped points, each user's information will be shown and their logs will also be connected to lines and differentiated using different colors.
-```{r}
+```{r out.width = "30%"}
 knitr::include_graphics("img/log.png")
 
 ```
@@ -46,13 +46,13 @@ knitr::include_graphics("img/log.png")
 Search the user information by inputing the user id in the searh area and click the searching button.
 This feature can work with the interactive plot.
 The profile link leads to the user's profile page in http://dea1500.xyz. You need to login to this website to access the profile page. If you do not have an account, just sign up and register one. 
-```{r}
+```{r out.width = "30%"}
 knitr::include_graphics("img/sidebar.png")
 
 ```
 
 # Profile page
-```{r}
+```{r out.width = "30%"}
 knitr::include_graphics("img/profile.png")
 
 ```
